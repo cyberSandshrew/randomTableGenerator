@@ -1,0 +1,46 @@
+/*
+Jerry French
+csc350 week 4
+07/20/2022
+*/
+
+body{
+    font-size: 20px;
+    color: rgb(247, 244, 244);
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    animation: fadeIn 5000ms linear;
+}
+
+table td, table th{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+h1, h2, h3, button{
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@media screen and (max-width:600px){
+    table{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    table{
+        width: 75%;
+    }
+    
+}
